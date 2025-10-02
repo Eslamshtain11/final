@@ -20,17 +20,12 @@ View your app in AI Studio: https://ai.studio/apps/drive/1kySRQdYZZWokL76ZHbyAM-
    npm install
    ```
 
-2. قم بإنشاء ملف `.env.local` في المجلد الرئيسي للمشروع وأضف مفتاح API الخاص بك:
-   ```
-   GEMINI_API_KEY=<مفتاح-API-الخاص-بك>
-   ```
-
-3. قم بتشغيل المشروع محلياً:
+2. قم بتشغيل المشروع محلياً:
    ```bash
    npm run dev
    ```
 
-4. افتح المتصفح على العنوان: [http://localhost:3000](http://localhost:3000)
+3. افتح المتصفح على العنوان: [http://localhost:3000](http://localhost:3000)
 
 ## بناء المشروع للإنتاج
 
@@ -105,5 +100,4 @@ npm run deploy
 
 ## ملاحظات هامة
 
-- تأكد من عدم رفع ملف `.env.local` إلى GitHub لأنه يحتوي على مفتاح API الخاص بك.
 - إذا واجهت مشكلة في الشاشة البيضاء بعد النشر، تأكد من أن جميع المسارات في المشروع تستخدم المسار النسبي الصحيح مع base path.
